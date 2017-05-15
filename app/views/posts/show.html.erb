@@ -1,0 +1,7 @@
+<h1>Post # <%= @post.id %></h1>
+
+<br>
+<h2> Body </h2>
+<p> <%= @post.body %> </p>
+<p> <b> BY: </b> <%= @post.user.name %> </p>
+<%= link_to "Back to posts" ,posts_path %>
